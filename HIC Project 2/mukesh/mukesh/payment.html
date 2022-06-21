@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigBasket</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/fav-icon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header-main">
+        <div class="container header">
+          <a href="./orders.html" class="cart-link"
+            ><i class="fa-solid fa-angles-left"></i
+          ></a>
+          <h2 class="header-title">BigBasket</h2>
+          <a href="./cart.html" class="cart-link"
+            ><i class="fa-solid fa-cart-arrow-down"></i
+          ></a>
+        </div>
+      </div>
+  
+      <nav>
+        <div class="container nav">
+          <a href="./homescreen.html">ALL</a>
+          <a href="./groceries.html">Groceries</a>
+          <a href="./drinks.html">Drinks</a>
+          <a href="./coupons.html">Coupons</a>
+        </div>
+      </nav>
+
+    <div class = "payment container">
+        <p> Card Number</p>
+        <form action="" class="form">
+        <p class="form-element">
+          <input
+            type="text"
+            name="card no."
+            placeholder="1234 5678 9012 3456"
+            id="card no."
+          />
+        </p>
+      </form>
+    
+      <p> Name On Card</p>
+        <form action="" class="form">
+        <p class="form-element">
+          <input
+            type="text"
+            name="name"
+            placeholder="John Smith"
+            id="name"
+          />
+        </p>
+        </form>
+        <div style = "display: flex; justify-content: space-between;" >
+            <p>Expiration Date</p>
+            <p>Security Code</p>
+        </div>
+        <div style = "display: flex; justify-content: space-between;" >
+            <form action="" class="form">
+                <p class="form-element">
+                  <input
+                    type="text"
+                    name="date"
+                    placeholder="01/19"
+                    id="date"
+                  />
+                </p>
+            </form>
+
+            <p class="slight-buffer"></p>
+
+            <form action="" class="form">
+                <p class="form-element">
+                  <input
+                    type="text"
+                    name="cvc"
+                    placeholder="123"
+                    id="cvc"
+                  />
+                </p>
+                </form>
+        </div>
+
+
+    </div>
+    <div class = "payment-button container">
+        <a href="./ordercomplete.html" class="btn signin-btn">Complete Payment</a>
+    </div>
+
+    <footer class="container">
+      <p class="footer-text">copyrights &copy; BigBasket 2022</p>
+    </footer>
+  </body>
+</html>

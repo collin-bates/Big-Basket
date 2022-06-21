@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigBasket</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/fav-icon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header-main">
+      <div class="container header">
+        <a href="./cart.html" class="cart-link"
+          ><i class="fa-solid fa-angles-left"></i
+        ></a>
+        <h2 class="header-title">BigBasket</h2>
+        <a href="./cart.html" class="cart-link"
+          ><i class="fa-solid fa-cart-arrow-down"></i
+        ></a>
+      </div>
+    </div>
+
+    <nav>
+      <div class="container nav">
+        <a href="./homescreen.html">ALL</a>
+        <a href="./groceries.html">Groceries</a>
+        <a href="./drinks.html">Drinks</a>
+        <a href="./coupons.html">Coupons</a>
+      </div>
+    </nav>
+
+    <!-- orders -->
+    <div class="orders container">
+      <!-- order -->
+      <div class="order" >
+        <p>DESCRIPTION:</p>
+        
+        <div style = "display: flex; justify-content: space-between;">
+          <p>2x Capsicums: </p>
+          <p>$4.00</p>
+        </div>
+
+        <div style = "display: flex; justify-content: space-between;">
+          <p>2x Tomatoes:</p>
+          <p>$8.00</p>
+        </div>
+
+        <div style = "display: flex; justify-content: space-between;">
+          <p>6x Potatoes (Russet):</p>
+          <p>$18.00</p>
+        </div>
+
+        <div style = "display: flex; justify-content: space-between;">
+          <p>1x Orange juice:</p>
+          <p>$2.00</p>
+        </div>
+
+        <div style = "display: flex; justify-content: space-between;">
+          <p>Coupons:</p>
+          <p>$-3.00</p>
+        </div>
+        
+        <div style = "display: flex; justify-content: space-between;">
+          <p>Tax:</p>
+          <p>$2.03</p>
+        </div>
+
+        <div class="order-total">
+          <p>Total:</p>
+          <p>$31.03</p>
+        </div>
+
+        <a href="./payment.html" class="btn payment-btn">Continue to payment</a>
+      </div>
+    </div>
+
+    <footer class="container">
+      <p class="footer-text">copyrights &copy; BigBasket 2022</p>
+    </footer>
+  </body>
+</html>
